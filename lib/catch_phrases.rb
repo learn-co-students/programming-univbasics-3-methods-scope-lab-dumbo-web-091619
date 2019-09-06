@@ -1,8 +1,8 @@
-def mario
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  puts phrase
+describe "link" do
+  it "It's Dangerous To Go Alone! Take This."
+    phrase = "It's Dangerous To Go Alone! Take This."
+    expect{link}.to output("It's Dangerous To Go Alone! Take This\n").to_stdout
+  end
 end
 
-def toadstool
-  puts status
-end
+
